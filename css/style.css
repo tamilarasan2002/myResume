@@ -47,7 +47,7 @@ a{
 
 }
 header a{
-	margin:0 1rem;
+	margin: 1rem;
 	color:#f3f3f3;
 }
 
@@ -125,6 +125,92 @@ header .navi{
 		width: 60%;
 	}
 	
+}
+@media(min-width:300px){
+	.about-home{
+		width: 100% !important;
+	}
+	html{
+		font-size: 10px !important;
+	}
+	.navi-visible{
+		flex-direction: column !important;
+		text-align: end;
+	}
+	.about-me-visible .row .col{
+		width:100% !important;
+		
+	}
+	.skills .col{
+		width:80% !important;
+	}
+	.education .row .col{
+		width: 90% !important;
+	}
+	.project .row .col{
+		width:90% !important;
+	}
+}
+@media(min-width:600px){
+	.about-home{
+		width: 50% !important;
+	}
+	html{
+		font-size: 14px !important;
+	}
+	.navi-visible{
+		flex-direction: row !important;
+		text-align: center !important;
+	}
+	.about-me-visible .row .col{
+		width:100% !important;
+		
+	}
+	.skills .col{
+		width:50% !important;
+	}
+	.education .row .col{
+		width: 70% !important;
+	}
+	.project .row .col{
+		width:70% !important;
+	}
+}
+@media(min-width:900px){
+
+.about-home{
+	width: 100% !important;
+}
+html{
+	font-size: 15px !important;
+}
+.navi-visible{
+	flex-direction: row;
+	text-align: center;
+}
+.about-me-visible .row{
+	
+	display: flex;
+	flex-direction: row !important;
+	
+}
+.skills .col{
+	width:50% !important;
+}
+.education .row .col{
+	width: 70% !important;
+}
+.project .row .col{
+	width:50% !important;
+}
+}
+@media(min-width:1200px){
+	html{
+		font-size: 18px !important;
+	}
+	.skills .col{
+		width:33.3% !important;
+	}
 }
 .home .container .social-icon{
 	display:flex;
@@ -224,7 +310,7 @@ img{
 	
 }
 .about-me-visible .content p{
-	font-size:1.5rem;
+	font-size:1rem;
 	
 }
 .about-me-visible .content{
@@ -267,15 +353,9 @@ img{
 	
 }
 .about-me-visible .row .col{
-	width:50%;
 	font-size:.7rem;
 }
 
-.about-me-visible .row{
-	display:flex;
-	flex-direction:row;
-
-}
 .about-me{
 	display: none !important;
 }
@@ -404,7 +484,7 @@ img{
 	align-items:center;
 }
 .education .row .col{
-	width:60%;
+	
 	padding:1.5rem 0;
 	margin: auto;
 	box-shadow:0 0 5px 2px #454545;
@@ -436,8 +516,6 @@ img{
 }
 .education .row .col-1{
 	width:25%;
-	
-	
 }
 .education .row .col-1 .img-ed{
 	overflow:hidden;
