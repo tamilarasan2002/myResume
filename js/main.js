@@ -29,7 +29,7 @@ function myProflie(){
     section_about.setAttribute("class","about-me-visible");
     section_header.setAttribute("class","header-none");
     section_home.setAttribute("class","home-none");
-   },1000)
+   },500)
   
 }
 
@@ -38,11 +38,11 @@ function myHome(){
     section_animation.setAttribute("class","animet-down");
 
     setTimeout(()=>{
-        let section_close =document.querySelector(".bi-box-arrow-left")
+        let section_close =document.querySelector(".bxs-x-square")
         section_close.parentElement.parentElement.setAttribute("class","about-me");
         section_home.setAttribute("class","home");
         section_header.setAttribute("class","header-visible");
-},1000)
+},500)
    
     
 }
@@ -54,7 +54,7 @@ function myDemo(){
         section_demo.setAttribute("class","project");
         section_header.setAttribute("class","header-none");
         section_home.setAttribute("class","home-none");
-    },1000)
+    },500)
   
 }
 function myHome_demo(){
@@ -65,7 +65,7 @@ function myHome_demo(){
         section_demo.setAttribute("class","about-me");
         section_home.setAttribute("class","home");
         section_header.setAttribute("class","header-visible");
-    },1000)
+    },500)
     
 }
 
@@ -77,7 +77,7 @@ function mySkills(){
     section_skills.setAttribute("class","skills");
     section_header.setAttribute("class","header-none");
     section_home.setAttribute("class","home-none");
-},1000)
+},500)
 }
 function myHome_skills(){
     section_animation.setAttribute("class","animet-down");
@@ -86,7 +86,7 @@ function myHome_skills(){
     section_skills.setAttribute("class","about-me");
     section_home.setAttribute("class","home");
     section_header.setAttribute("class","header-visible");
-},1000)    
+},500)    
 }
 var section_education=document.querySelector(".education");
 function myEducation(){
@@ -96,7 +96,7 @@ function myEducation(){
     section_education.setAttribute("class","education");
     section_header.setAttribute("class","header-none");
     section_home.setAttribute("class","home-none");
-},1000)
+},500)
 }
 function myHome_education(){
     section_animation.setAttribute("class","animet-down");
@@ -105,7 +105,7 @@ function myHome_education(){
     section_education.setAttribute("class","about-me");
     section_home.setAttribute("class","home");
     section_header.setAttribute("class","header-visible");
-},1000)
+},500)
 }
 
 
