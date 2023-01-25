@@ -1,18 +1,23 @@
 
 //HEADER AND NAVICATION BAR
 var navi=document.querySelector(".navi-none");
-
+var icon_change=document.querySelector(".bi-list");
+console.log(icon_change);
 function menuList(){
-    let navi_none=navi.getAttribute("class")
+    let navi_none=navi.getAttribute("class");
 
     if(navi_none =="navi-none"){
        
-        navi.setAttribute("class","navi-visible")
+        navi.setAttribute("class","navi-visible");
+        icon_change.setAttribute("class","bi-box-arrow-in-right");
     }
     else{
       
-        navi.setAttribute("class","navi-none")
+        navi.setAttribute("class","navi-none");
+        icon_change.setAttribute("class","bi-list");
+    
     }
+
 }
 // click to change section 
 

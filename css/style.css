@@ -125,9 +125,13 @@ header .navi{
 	html{
 		font-size: 10px !important;
 	}
+	.navi-visible a{
+		width: fit-content;
+	}
 	.navi-visible{
 		flex-direction: column !important;
 		text-align: end;
+		
 	}
 	.about-me-visible .row .col{
 		width:100% !important;
