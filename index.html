@@ -23,10 +23,11 @@
         </div>
         <div class="navi">
             <nav id="navi-animat"  class="navi-none">
-                <a onclick="myProflie()">I AM</a>
-                <a onclick="mySkills()" >I KNEW</a>
-                <a onclick="myEducation()">MY EDUCATION</a>
-                <a onclick="myDemo()">MY DEMO</a>
+                <a onclick="sectionChecker('.home')">Home</a>
+                <a onclick="sectionChecker('.about-home')">I'M</a>
+                <a onclick="sectionChecker('.skills')" >I KNEW</a>
+                <a onclick="sectionChecker('.education')">MY EDUCATION</a>
+                <a onclick="sectionChecker('.project')">MY DEMO</a>
                 
             </nav>
         </div>
@@ -46,17 +47,22 @@
             
         </div>
         <div class="social-icon">
-            <div><a href="https://www.linkedin.com/in/d-tamilarasan-124132261/" target="_blank"><i class="bi bi-linkedin"></i></a></div>
-            <div><a href="http://www.whatsapp.com" target="_blank"><i class="bi bi-whatsapp"></i></a></div>
-            <div><a href="tel:+9688717898" target="_blank"><i class="bi bi-phone"></i></a></div>
-            <div><a href="mailto:abidm26792@gmail.com" target="_blank"><i class="bi bi-envelope"></i></a></div>
-            <div><a href="https://github.com/tamilarasan2002?tab=repositories" target="_blank"><i class="bi bi-github"></i></a></div>
+            <div class="social-icon-card">
+                <div class="animat-1"><a href="https://www.linkedin.com/in/d-tamilarasan-124132261/" target="_blank"><i class="bi bi-linkedin"></i></a></div>
+                <div class="animat-2" ><a href="http://www.whatsapp.com" target="_blank"><i class="bi bi-whatsapp"></i></a></div>
+                <div class="animat-3"><a href="tel:+9688717898" target="_blank"><i class="bi bi-phone"></i></a></div>
+                <div class="animat-4"><a href="mailto:abidm26792@gmail.com" target="_blank"><i class="bi bi-envelope"></i></a></div>
+                <div class="animat-5"><a href="https://github.com/tamilarasan2002?tab=repositories" target="_blank"><i class="bi bi-github"></i></a></div>
+                
+            </div>
+                <a onclick="socialAnimat()">search me</a>
+           
         </div>
     
        
     </div>
 </section>
-<section class="about-me about-home">
+<section class="home-none about-home">
     <div class="container">
         <div class="head">
             <p> Get to know me</p>
@@ -64,7 +70,7 @@
             <span class="under"><span class="under-animat"></span> 
             </span>
         </div>
-        <i onclick="myHome()" class="bx bxs-x-square"></i>
+       
        
         <div class="row">
             <div class="col">
@@ -111,9 +117,9 @@
         </div>
     </div>
 </section>
-<section class="project about-me" id="demo">
+<section class="project home-none" id="demo">
     <div class="container">
-        <i onclick="myHome_demo()" class="bx bxs-x-square close-1"></i>
+        
         <div class="head">
             <p>Visit My Project and tell your feedback </p>
             <h1>MY <span>PROJECTS</span></h1>
@@ -192,9 +198,9 @@
         </div>
     </div>
 </section>
-<section class="skills about-me" id="iknow">
+<section class="skills home-none" id="iknow">
         <div class="container">
-            <i onclick="myHome_skills()" class="bx bxs-x-square close-2"></i>
+           
             <div class="head">
                 <p>FEATURES</p>
                 <h1>What<span> I Do</span></h1>
@@ -252,9 +258,9 @@
             </div>
         </div>
     </section>
-    <section class="education about-me" id="educations">
+    <section class="education home-none" id="educations">
         <div class="container">
-            <i onclick="myHome_education()" class="bx bxs-x-square close-3"></i>
+           
             <div class="head">
                 <p>Deplamo,Secondary and Course</p>
                 <h1>My<span>EDUCATIONS</span></h1>
